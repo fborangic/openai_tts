@@ -54,7 +54,7 @@ class OpenAITTSEntity(TextToSpeechEntity):
     @property
     def default_language(self):
         """Return the default language."""
-        return "en"
+        return "ro"
 
     @property
     def supported_languages(self):
